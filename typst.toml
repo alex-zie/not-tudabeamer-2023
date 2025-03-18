@@ -5,7 +5,6 @@ entrypoint = "lib.typ"
 authors = ["Moritz Hedtke"]
 license = "Unlicense"
 description = "Not the TU Darmstadt Beamer 2023 template"
-homepage = "https://github.com/mohe2015/not-tudabeamer-2023"
 repository = "https://github.com/mohe2015/not-tudabeamer-2023"
 keywords = ["tu-darmstadt", "beamer", "presentation"]
 categories = ["presentation"]
