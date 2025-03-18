@@ -1,4 +1,4 @@
-#import "@preview/touying:0.5.2": *
+#import "@preview/touying:0.6.1": *
 
 #let margin = (
   left: 0.39in,

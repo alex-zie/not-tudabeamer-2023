@@ -6,7 +6,7 @@ A [touying](https://github.com/touying-typ/touying) presentation template matchi
 
 Install Roboto font for your system or download them from https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip.
 
-Run `typst init @preview/not-tudabeamer-2023:0.1.0`
+Run `typst init @preview/not-tudabeamer-2023:0.2.0`
 
 Download https://download.hrz.tu-darmstadt.de/protected/ULB/tuda_logo.pdf.
 
@@ -15,7 +15,7 @@ Run `pdf2svg tuda_logo.pdf tuda_logo.svg` or convert to `.svg` using e.g. Inksca
 ### Examples
 
 ```typst
-#import "@preview/not-tudabeamer-2023:0.1.0": *
+#import "@preview/not-tudabeamer-2023:0.2.0": *
 
 #show: not-tudabeamer-2023-theme.with(
   config-info(
@@ -49,5 +49,5 @@ This template currently only follows the TU Darmstadt Beamer template in spirit 
 
 ```
 mkdir -p ~/.cache/typst/packages/preview/not-tudabeamer-2023
-ln -s $PWD ~/.cache/typst/packages/preview/not-tudabeamer-2023/0.1.0
+ln -s $PWD ~/.cache/typst/packages/preview/not-tudabeamer-2023/0.2.0
 ```
